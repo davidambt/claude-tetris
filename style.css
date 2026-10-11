@@ -25,6 +25,20 @@ body {
   align-items: flex-start;
 }
 
+.main-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.main-game h1 {
+  font-size: 32px;
+  letter-spacing: 6px;
+  color: #7aa2f7;
+  text-shadow: 0 0 10px rgba(122, 162, 247, 0.5);
+}
+
 #board {
   display: block;
   border: 1px solid #2a2a3a;
